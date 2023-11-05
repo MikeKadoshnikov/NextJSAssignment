@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "next dev -p 3061",
+    "build": "next build",
+    "start": "next start -p 3061",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.1"
+  }
+}
