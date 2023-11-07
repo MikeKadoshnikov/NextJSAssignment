@@ -12,9 +12,14 @@ export default function SearchBar() {
             const filtered = products.filter((el)=>{return el.title.toLowerCase().includes(searchString.toLowerCase())})
             const currentFilter = filtered.map((product, index) => {
                 return (<div className="ApiContent">
+                    <div className="iteminfo">
                     <p>{product.title}</p>
-                    <p>{product.price}</p>
-                    <img style={{width:"150px"}} src={product.image} alt={product.title}/>
+                    <p>${product.price}</p>
+                    <button>Add to Cart!</button>
+                    </div>
+                    <div className="itemimg">
+                    <img style={{height:"150px"}} src={product.image} alt={product.title}/>
+                    </div>
                 </div>)
             })
             setFilteredProducts(currentFilter)

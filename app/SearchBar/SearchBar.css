@@ -1,8 +1,18 @@
 .ApiContent {
-    border: 2px solid black;
+    border: 1px solid grey;
     border-radius: 10px;
-    width: 180px;
+    width: 95%;
     padding: 1rem;
     overflow:none;
-    margin: 1rem;
+    margin: .5rem;
+}
+
+.itemimg {
+    width: 40%;
+    float: left;
+}
+
+.iteminfo {
+    width: 60%;
+    float: right;
 }

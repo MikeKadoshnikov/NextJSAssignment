@@ -17,11 +17,12 @@ export default function CountButton(props) {
         padding: ".7rem",
         borderRadius: "10px",
     }
+
     useEffect(rollOverCount, [count]);
     return (
-        <div>
+        <div className="buttonstuff">
         <button style={buttonStyle} onClick={handleClick}>+{props.mult}</button>
-        <div>{count}</div>
+        <div><p>{count}</p></div>
         </div>
     )
 }
