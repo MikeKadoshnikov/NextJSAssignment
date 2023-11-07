@@ -18,7 +18,7 @@ export default function SearchBar() {
                     <button>Add to Cart!</button>
                     </div>
                     <div className="itemimg">
-                    <img style={{height:"150px"}} src={product.image} alt={product.title}/>
+                    <img style={{width:"150px"}} src={product.image} alt={product.title}/>
                     </div>
                 </div>)
             })
